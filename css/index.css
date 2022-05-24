@@ -21,3 +21,81 @@ body{
   background-position: center center;
   background-size: cover;
 }
+
+
+.my-image {
+	overflow: hidden;
+}
+
+
+.my-image img {
+	transition: all 1.9s ease;
+}
+
+.my-image:hover img {
+	transform: scale(1.4);
+}
+
+
+/*fade*/
+
+.w3-animate-left {
+	position:relative;
+	animation:animateleft 0.4s
+}
+@keyframes animateleft { 
+	from { 
+		left:-900px;opacity:0
+	} 
+	to {
+		left:0;opacity:1
+	}
+}
+
+.w3-animate-left-1 {
+	position:relative;
+	animation:animateleft 1.5s
+}
+@keyframes animateleft { 
+	from { 
+		left:-900px;opacity:0
+	} 
+	to {
+		left:0;opacity:1
+	}
+}
+
+
+.w3-animate-left-2 {
+	position:relative;
+	animation:animateleft 1.0s
+}
+@keyframes animateleft { 
+	from { 
+		left:-900px;opacity:0
+	} 
+	to {
+		left:0;opacity:1
+	}
+}
+
+
+.w3-animate-left-3 {
+	position:relative;
+	animation:animateleft 0.5s
+}
+@keyframes animateleft { 
+	from { 
+		left:-900px;opacity:0
+	} 
+	to {
+		left:0;opacity:1
+	}
+}
+
+
+/*Google Map*/
+
+.embed-responsive-100x400px{
+  padding-bottom: 400px;
+}

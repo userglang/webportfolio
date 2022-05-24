@@ -7,17 +7,28 @@
     <title>Cover Template · Bootstrap v5.1</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+
   </head>
   <body class="banner rounded-3">
     
@@ -25,54 +36,40 @@
 
     <div class="container d-flex w-100 h-100 pt-5 flex-column" id="home">
       <header class="mb-auto ">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparency">
-          <a class="navbar-brand" href="#home">Navbar</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarsExample09">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#home">Home</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#me">About</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#pat">Project and Tools</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        <div>
+          <h3 class="float-md-start mb-0 fw-bold text-uppercase text-center">Naz G.</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link active" href="#home">Home</a>
+            <a class="nav-link" href="#me">About</a>
+            <a class="nav-link" href="#pat">Project and Tools</a>
+            <a class="nav-link" href="#Contact">Contact</a>
+          </nav>
+        </div>
       </header>
 
       <main class="px-3 mb-auto">
-        <p class="fs-5 lh-1">Hi, my name is</p>
-        <h1 class="display-3 text-warning text-uppercase fw-bold "> Nazer Glang</h1>
-        <h2 class="fs-4">I'm a <span class="text-warning fs-4 fw-bold">Full-stack Web Developer</span></h2>
-        <p class="lead mb-5 fs-6">This is my <span class="fw-bold">Official Website Portfolio</span>.</p>
+        <p class="fs-5 lh-1 w3-animate-left">Hi, my name is</p>
+        <h1 class="display-3 text-warning text-uppercase fw-bold w3-animate-left-1"> Nazer Glang</h1>
+        <h2 class="fs-4 w3-animate-left-2">I'm a <span class="text-warning fs-4 fw-bold">Full-stack Web Developer</span></h2>
+        <p class="lead fs-6 w3-animate-left-3">This is my <span class="fw-bold">Official Website Portfolio</span>.</p>
       </main>
 
     </div>
 
     <!-- About Me Start -->
     <section class="container-fluid bg-white py-5 " id="me">
-      <div class="container bg-dark rounded-3 py-md-5 my-md-3 py-lg-5 my-lg-5">
+      <div class="container bg-dark rounded-lg py-md-5 my-md-3 py-lg-5 my-lg-5">
         <div class="row text-center">
-          <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="my-image col-sm-12 col-md-12 col-lg-6">
             <img class="img-fluid shadow rounded-3 " src="image/Me3.jpg" width="400" height="400">
           </div>
           <div class="col-sm-12 col-md-12 col-lg-6 text-left">
-            <h1 class="display-6 text-warning text-uppercase fw-bold"> About Me</h1>
+            <h1 class="display-6 text-warning text-uppercase fw-bold"> About Me <i class="fas fa-address-card ml-2"></i></h1>
             <p class="mt-5">Hello there, </p>
-            <p >I'm <span class="text-warning fs-5 fw-bold">Nazer Glang</span>, an Information Technology Graduate From Liceo de Cagayan University and a web developer with 4+ years of experience building and designing beautiful responsive and modern websites with Bootstrap.</p>
+            <p >I'm <span class="text-warning fs-5 fw-bold">Nazer Glang</span>, an Information Technology Graduate From Liceo de Cagayan University and a web developer with 1 year of experience building and designing beautiful responsive and modern websites with Bootstrap.</p>
             <p >Here is a quick overview of my skills and strengths. I am well, organized, efficient, and self motivated. The key of my success has been to lean quickly and to then reach for a higher personal and professional standard by seeking additional responsibilities.</p>
             <div class="">
-              <a class="btn btn-success shadow btn-lg px-4 my-5" href="#pat">Project and Tools</a>
+              <a class="btn btn-success shadow btn-lg px-4 my-5" href="#pat">Project and Tools <i class="fas fa-arrow-alt-circle-right ml-2"></i></a>
             </div>
           </div>
         </div>
@@ -81,29 +78,28 @@
     <!-- About Me End -->
 
 
-
     <!-- Project Start -->
     <section class="container-fluid bg-dark py-5 " id="pat">
-      <div class="container bg-dark py-md-5 my-md-3 py-lg-5 my-lg-5">
-        <h1 class="display-4 text-warning text-uppercase fw-bold text-center mb-5"> Projects</h1>
+      <div class="container bg-dark">
+        <h1 class="display-5 text-warning text-uppercase fw-bold text-center mb-3"> Projects</h1>
         <div class="row text-center">
 
           <!-- HTML Card Start -->
           <div class="pt-3 pb-3 col-sm-12 col-lg-4 mb-5">
+            <div class="my-image">
               <img class="card mb-5 img-fluid" src="image/layoutDesign.jpg">
-              <h5 class="mb-3 text-warning">Banner Layout Design</h5>
-              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+              <h5 class="mb-3 text-warning">Photoshop</h5>
+              <p class="text-justify">Start with Photoshop. Amazing will follow. From social posts to photo retouching, banners to beautiful websites, everyday image edits to total transformations — whatever you make, you can make it better with Photoshop</p>
+              <p class="text-justify">Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1988 by Thomas and John Knoll. Since then, the software has become the industry standard not only in raster graphics editing, but in digital art as a whole.</p>
           </div>
           <!-- HTML Card End -->
 
           <!-- Bootstrap Card Start -->
           <div class="pt-3 pb-3 col-sm-12 col-lg-4  mb-5">
+            <div class="my-image">
               <img class="card mb-5 img-fluid" src="image/inventory.jpg">
+            </div>
               <h5 class="mb-3 text-warning">Inventory Management System</h5>
               <p class="text-justify">An inventory management system (or inventory system) is the process by which you track your goods throughout your entire supply chain, from purchasing to production to end sales. It governs how you approach inventory management for your business.</p>
               <p class="text-justify">Any venture that handles stock will need a system to accurately track and control it. Without one, you’ll be working on an entirely ad-hoc basis — and you’ll quickly run into situations where your business is overstocked or understocked.</p>
@@ -111,15 +107,15 @@
           <!-- Bootstrap Card End -->
 
           <!-- Nose JS Server Card Start -->
-          <div class="pt-3 pb-3 col-sm-12 col-lg-4 mb-5">
+          <div class="pt-3 pb-3 col-sm-12 col-lg-4">
+            <div class="my-image">
               <img class="card mb-5 img-fluid" src="image/webDesign.jpg">
+            </div>
               <h5 class="mb-3 text-warning">Web Designing</h5>
-              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="text-justify">Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design; authoring, including standardised code and proprietary software; user experience design; and search engine</p>
+              <p class="text-justify">
+                You can achieve anything if you put your mind to it, and learning web design on your own is not an exception. The resources you need are readily available online and in the market, but it is up to you to apply your knowledge and improve your skills further through constant practice and application.
+              </p>
           </div>
           <!-- Node JS Server Card End -->
 
@@ -130,134 +126,154 @@
     <!-- Project End -->
 
     <section class="container-fluid py-5 text-dark">
-        <div class="row text-center">
-          <!-- Tools Section Start -->
-          <div class="container">
+      <div class="row text-center">
+        <!-- Tools Section Start -->
+        <div class="container">
 
-              <!-- Core Tools Section Start -->
-              <h3 class="text-warning text-uppercase fw-bold text-center">Core Tools</h3>
+            <!-- Core Tools Section Start -->
+            <h3 class="text-warning text-uppercase fw-bold text-center">Core Tools</h3>
 
-              <div>
-                  <div>
-                      <img width="150" src="image/logo-html5.png"/>
-                  </div>
-                  <div>
-                      <img width="150" src="image/logo-css3.png"/>
-                      <img width="150" src="image/logo-javascript.png"/>
-                  </div>
-              </div>
-              <!-- Core Tools Section End -->
-              
-              <!-- Other Tools Section Start -->
-              <h3 class="text-warning text-uppercase fw-bold text-center">Other Tools</h3>
+            <div>
+                <div class="my-image">
+                    <img width="75" src="image/logo-html5.png" data-toggle="tooltip" data-placement="top" title="HTML5" />
+                </div>
+                <div class="my-image">
+                    <img width="75" src="image/logo-css3.png" data-toggle="tooltip" data-placement="top" title="CCS3" />
+                    <img width="75" src="image/logo-javascript.png" data-toggle="tooltip" data-placement="top" title="JavaScript" />
+                </div>
+            </div>
+            <!-- Core Tools Section End -->
+            
+            <!-- Other Tools Section Start -->
+            <h3 class="text-warning text-uppercase fw-bold text-center">Other Tools</h3>
 
-              <div class="d-md-block d-flex">
-                  <div class="d-md-flex justify-content-center">
-                      <img width="150" src="image/logo-mongodb.png"/>
-                      <img width="150" src="image/logo-nodejs.png"/>
-                      <img width="150" src="image/logo-expressjs.png"/>
-                      <img width="150" src="image/logo-react.png"/>
-                      <img width="150" src="image/logo-heroku.png"/>
-                  </div>
-                  <div class="d-md-flex justify-content-center">
-                      <img width="150" src="image/logo-git.png"/>
-                      <img width="150" src="image/logo-sublime-text-3.png"/>
-                      <img width="150" src="image/logo-postman.png"/>
-                      <img width="150" src="image/logo-gitlab-ci-cd.png"/>
-                  </div>
-              </div>
-              <!-- Other Tools Section End -->
-              
-          </div>
-          <!-- Tools Section End -->
-
+            <div class="d-md-block d-flex">
+                <div class="d-md-flex justify-content-center my-image ">
+                    <img class="mr-3" width="75" src="image/logo-mongodb.png" data-toggle="tooltip" data-placement="top" title="Mongodb" />
+                    <img class="mr-3" width="75" src="image/logo-nodejs.png" data-toggle="tooltip" data-placement="top" title="Node.js"/>
+                    <img class="mr-3" width="75" src="image/logo-expressjs.png" data-toggle="tooltip" data-placement="top" title="Expressjs" />
+                    <img class="mr-3" width="75" src="image/logo-react.png" data-toggle="tooltip" data-placement="top" title="React" />
+                </div>
+                <div class="d-md-flex justify-content-center my-image">
+                    <img class="mr-3"  width="75" src="image/logo-git.png" data-toggle="tooltip" data-placement="top" title="Git" />
+                    <img class="mr-3"  width="75" src="image/logo-sublime-text-3.png" data-toggle="tooltip" data-placement="top" title="Sublime" />
+                    <img class="mr-3"  width="75" src="image/logo-postman.png" data-toggle="tooltip" data-placement="top" title="Postman" />
+                    <img class="mr-3"  width="75" src="image/logo-gitlab-ci-cd.png" data-toggle="tooltip" data-placement="top" title="GitLab" />
+                </div>
+            </div>
+            <!-- Other Tools Section End -->
+            
         </div>
+        <!-- Tools Section End -->
+
+      </div>
     </section>
     <!-- About Me End -->
 
-
-    <!-- About Me Start -->
-    <section class="container-fluid bg-dark " id="contact">
-      <div class="container-fluid bg-dark rounded-3 py-md-5 my-md-3 py-lg-5 my-lg-5">
-        <div class="row text-center">
-          <div class="col-sm-12 col-md-12 col-lg-6 text-right align-content-between">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28861.582606985725!2d124.6352175929401!3d8.494683754554805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2d97e599b7b%3A0xa1a19784881a90e3!2sPelaez%20Sports%20Center!5e1!3m2!1sen!2sph!4v1653310644587!5m2!1sen!2sph" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="contact bg-dark py-5" id="contact">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5 text-warning">Contact Me</h2>
+            </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-6 text-left mt-3">
-            
-            <div class="col-md-8 order-md-1">
-              <h4 class="mb-3">Leave a message</h4>
-              <form class="needs-validation" novalidate>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="contact-items d-fle mb-3x">
+              <div class="text">
+                <h5>Email Address</h5>
+                <p class="text-muted">nasglang@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-items d-flex mb-3">
+              <div class="text">
+                <h5>Contact Number</h5>
+                <p class="text-muted">0975-0000-000</p>
+              </div>
+            </div>
+            <div class="contact-items d-flex mb-3">
+              <div class="text">
+                <h5>Facebook</h5>
+                <p class="text-muted">facebook.com/nazee.nas.7</p>
+              </div>
+            </div>
+            <div class="contact-items d-flex mb-3">
+              <div class="text">
+                <h5>GitHub</h5>
+                <p class="text-muted">github.com/userglang</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="contact-form">
+              <form>
                 <div class="row">
-                  <div class="col-md-6 mb-3">
-                    <input type="text" class="form-control" id="firstName" placeholder="First Name" value="" required>
-                    <div class="invalid-feedback">
-                      Valid first name is required.
-                    </div>
+                  <div class="col-lg-6 mb-3">
+                    <input type="text" class="form-control form-control-md border-0 shadow-sm" name="" id="fName" placeholder="First Name">
                   </div>
-                  <div class="col-md-6 mb-3">
-                    <input type="text" class="form-control" id="lastName" placeholder="Last Name" value="" required>
-                    <div class="invalid-feedback">
-                      Valid last name is required.
-                    </div>
+                  <div class="col-lg-6 mb-3">
+                    <input type="text" class="form-control form-control-md border-0 shadow-sm" name="" id="lName" placeholder="Last Name">
                   </div>
                 </div>
 
-                <div class="mb-3">
-                  <div class="input-group">
-                    <input type="text" class="form-control" id="cellNumber" placeholder="Contact Number" required>
-                    <div class="invalid-feedback" style="width: 100%;">
-                      Your username is required.
-                    </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-3">
+                    <input type="email" class="form-control form-control-md border-0 shadow-sm" name="" id="email" placeholder="Email">
                   </div>
                 </div>
 
-                <div class="mb-3">
-                  <label for="email">Email <span class="text-muted">(Optional)</span></label>
-                  <input type="email" class="form-control" id="email" placeholder="you@example.com">
-                  <div class="invalid-feedback">
-                    Please enter a valid email address for shipping updates.
+                <div class="row">
+                  <div class="col-lg-12 mb-3">
+                    <input type="number" class="form-control form-control-md border-0 shadow-sm" name="" id="cellNumber" placeholder="Contact Number">
                   </div>
                 </div>
 
-                <div class="mb-3">
-                  <label for="message">Message</label>
-                  <textarea class="form-control" name="message" id="" cols="30" rows="10"></textarea>
+                <div class="row">
+                  <div class="col-lg-12 mb-3">
+                    <textarea class="form-control form-control-md border-0 shadow-sm" name="" placeholder="Message" id="message" cols="30" rows="5"></textarea>
+                  </div>
                 </div>
-                <hr class="mb-4">
-                <button class="btn btn-primary btn-lg btn-block mb-3"data-toggle="modal" data-target="#sendMessage">Send Message</button>
 
-                <!-- Modal Start -->
-                <div class="modal fade" id="sendMessage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title text-body" id="exampleModalLabel">Thank you for contacting us!</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body text-body">
-                        Message Successfully sent
-                      </div>
-                      <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">
+                      Send Message <i class="fas fa-paper-plane ml-2"></i>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content text-dark">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Congratulation!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Message Successfully Sent
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Okay <i class="fas fa-thumbs-up ml-1"></i></button>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <!-- Modal End -->
-
               </form>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- About Me End -->
 
-
-
+    <div class="embed-responsive embed-responsive-100x400px">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158052.19360536203!2d124.56268560703589!3d8.382651008608578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2d9810e9e81%3A0x2edcd5b84a6de2a2!2sCagayan%20de%20Oro%2C%20Misamis%20Oriental!5e1!3m2!1sen!2sph!4v1653381636633!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+    </div>
 
     <div class="container">
       <footer class="py-3 my-4">
@@ -275,6 +291,14 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Tooltip Script -->
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
+
   </body>
 </html>
 
